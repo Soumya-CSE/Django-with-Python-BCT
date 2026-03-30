@@ -24,5 +24,5 @@ urlpatterns = [
     path('about/',views.about,name='about'),
     path('contact/',views.contact,name='contact'),
     path('services/',views.services,name='services'),
-    path('newApp/',include('newApp.urls')),
+    path('newApp/',include('newApp.urls', namespace='newApp')),
 ]

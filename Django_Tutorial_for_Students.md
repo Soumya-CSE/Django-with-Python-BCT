@@ -9,7 +9,8 @@
 6. [Views & URL Routing](#views--url-routing)
 7. [Templates](#templates)
 8. [Static Files (CSS, JS, Images)](#static-files-css-js-images)
-9. [Common Problems & Solutions](#common-problems--solutions)
+9. [Common Problems & Solutions]~
+(#common-problems--solutions)
 
 ---
 
