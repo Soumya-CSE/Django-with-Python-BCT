@@ -17,3 +17,5 @@ class Product(models.Model):
     
     
 # Create your models here.
+    def __str__(self):
+        return self.name
