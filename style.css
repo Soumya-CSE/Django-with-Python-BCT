@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Custom Button */
+.btn-custom {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.btn-custom:hover {
+    background-color: #ddd;
+}
+
+/* Feature Box */
+.feature-box {
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-10px);
+}
+
+/* Pricing Section */
+.pricing-section {
+    background-color: #f4f6f9;
+}
+
+.price-card {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+}
+
+.highlight {
+    background: #764ba2;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+}
