@@ -5,6 +5,136 @@ About
 {% endblock %}
 
 {% block content %}
-<h1>About Page</h1>
-<p>This is the about page.</p>
+<div class="about-container">
+    <h2>About Our Hardware Shop</h2>
+    <p class="intro-text">Welcome to our Hardware Shop — your one-stop solution for all construction and building material needs. We are dedicated to supplying high-quality hardware products that help you build strong, safe, and durable structures.</p>
+
+    <h3>Our Business</h3>
+    <p>With years of experience in the hardware industry, we specialize in providing essential construction materials such as TMT bars, cement, and a wide range of hardware tools. Whether you are a contractor, builder, or homeowner, we have everything you need under one roof.</p>
+
+    <h3>Our Products</h3>
+    <ul class="product-list">
+        <li>TMT bars for strong construction</li>
+        <li>High-quality cement</li>
+        <li>Pipes and fittings</li>
+        <li>Electrical and plumbing materials</li>
+        <li>Hand tools and hardware accessories</li>
+    </ul>
+
+    <h3>Our Commitment</h3>
+    <p class="commitment-intro">We focus on:</p>
+    <ul class="commitment-list">
+        <li>✔ Premium product quality</li>
+        <li>✔ Affordable pricing</li>
+        <li>✔ Honest and reliable service</li>
+        <li>✔ Customer satisfaction</li>
+    </ul>
+
+    <h3>Why Choose Us?</h3>
+    <p>We understand that construction requires trust and durability. That's why we ensure every product we supply meets industry standards and supports long-lasting results.</p>
+
+    <hr class="about-divider">
+    <p class="tagline"><strong>Your Trusted Partner in Building Materials and Hardware Solutions.</strong></p>
+</div>
+
+<style>
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.about-container h2 {
+    font-size: 2.2rem;
+    color: #1657e2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-container h3 {
+    font-size: 1.4rem;
+    color: #1f4f92;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.intro-text {
+    font-size: 1.05rem;
+    font-weight: 500;
+    background: #f0f5ff;
+    padding: 15px;
+    border-left: 4px solid #1657e2;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.product-list, .commitment-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.product-list li, .commitment-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1rem;
+}
+
+.product-list li:before {
+    content: "▪";
+    color: #1657e2;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.commitment-intro {
+    margin-bottom: 10px;
+}
+
+.about-divider {
+    border: none;
+    border-top: 2px solid #1657e2;
+    margin: 40px 0;
+    opacity: 0.3;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #1f4f92;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 25px 15px;
+    }
+
+    .about-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-container h3 {
+        font-size: 1.2rem;
+    }
+
+    .about-container p {
+        text-align: left;
+    }
+
+    .intro-text {
+        padding: 12px;
+    }
+}
+</style>
 {% endblock %}

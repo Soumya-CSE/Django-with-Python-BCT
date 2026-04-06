@@ -5,6 +5,139 @@ Contact
 {% endblock %}
 
 {% block content %}
-<h1>Contact Page</h1>
-<p>This is the contact page.</p>
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <p class="contact-intro">Get in touch with Chandimata Hardware for all your construction and hardware needs.</p>
+    
+    <div class="contact-details">
+        <div class="contact-card">
+            <h3>Business Owner</h3>
+            <p class="detail-value">Mrinal Kanti Hazra</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Phone</h3>
+            <p class="detail-value">
+                <a href="tel:7029666696">7029666696</a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Email</h3>
+            <p class="detail-value">
+                <a href="mailto:soumyaahazra@gmail.com">soumyaahazra@gmail.com</a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Location</h3>
+            <p class="detail-value">Bowai, Purba Bardhaman</p>
+        </div>
+    </div>
+
+    <div class="contact-message">
+        <p>We look forward to hearing from you and serving your hardware needs with quality products and excellent service.</p>
+    </div>
+</div>
+
+<style>
+.contact-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    color: #1657e2;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.contact-card {
+    background: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+.contact-card h3 {
+    font-size: 1.2rem;
+    color: #1f4f92;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.detail-value {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+    font-weight: 500;
+}
+
+.detail-value a {
+    color: #1657e2;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.detail-value a:hover {
+    color: #1246b5;
+    text-decoration: underline;
+}
+
+.contact-message {
+    background: #e3f2fd;
+    padding: 25px;
+    border-left: 4px solid #1657e2;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.contact-message p {
+    font-size: 1rem;
+    color: #1f4f92;
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 25px 15px;
+    }
+
+    .contact-container h1 {
+        font-size: 2rem;
+    }
+
+    .contact-details {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-card {
+        padding: 25px 15px;
+    }
+}
+</style>
 {% endblock %}

@@ -9,14 +9,32 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav class="site-nav">
+        <div class="nav-brand">
+            <a href="{% url 'newApp:home' %}">Chandimata Hardware</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
             <li><a href="{% url 'newApp:home' %}">Home</a></li>
             <li><a href="{% url 'newApp:about' %}">About</a></li>
             <li><a href="{% url 'newApp:contact' %}">Contact</a></li>
         </ul>
     </nav>
     {% block content %}{% endblock %}
-    
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+                navLinks.classList.toggle('open');
+                navToggle.setAttribute('aria-expanded', String(!expanded));
+            });
+        }
+    </script>
 </body>
 </html>

@@ -3,6 +3,17 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-    <h1>Welcome to Django Website</h1>
-    <p>This is a simple Django website.</p>
+    <div class="home-search-banner">
+        <h1>Welcome to our shop — Chandimata Hardware</h1>
+        <p>This is our online store for hardware products.</p>
+        <form method="get" action="{% url 'newApp:home' %}" class="home-search-form">
+            <input
+                type="text"
+                name="q"
+                placeholder="Search products by name or description"
+                class="home-search-input"
+            />
+            <button type="submit" class="home-search-button">Go</button>
+        </form>
+    </div>
 {% endblock %}

@@ -7,6 +7,19 @@
     <div class="products-header">
         <h1>Our Products</h1>
         <p>Discover our amazing collection of products</p>
+        <form method="get" action="{% url 'newApp:home' %}" class="product-search-form">
+            <input
+                type="text"
+                name="q"
+                value="{{ query }}"
+                placeholder="Search products by name or description..."
+                class="search-input"
+            />
+            <button type="submit" class="btn btn-primary search-button">Search</button>
+        </form>
+        {% if query %}
+            <p class="search-note">Showing results for “<strong>{{ query }}</strong>”</p>
+        {% endif %}
     </div>
 
     {% if products %}
@@ -172,6 +185,42 @@
 .product-actions {
     display: flex;
     gap: 10px;
+}
+
+.product-search-form {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1 1 320px;
+    max-width: 460px;
+    padding: 12px 16px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background: #fff;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #3f86f2;
+    box-shadow: 0 0 0 3px rgba(63, 134, 242, 0.18);
+}
+
+.search-button {
+    padding: 12px 20px;
+    min-width: 110px;
+}
+
+.search-note {
+    margin-top: 12px;
+    color: #44546b;
+    font-size: 0.95rem;
 }
 
 .btn {
