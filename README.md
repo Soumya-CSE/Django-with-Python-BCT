@@ -88,30 +88,6 @@ The website showcases various hardware and construction materials including:
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-![Home Page](assets/screenshots/home.png)
-
-### 🛒 Products Page
-
-![Products](assets/screenshots/products.png)
-
-### 📦 Product Details
-
-![Product Details](assets/screenshots/product-details.png)
-
-### 📞 Contact Page
-
-![Contact](assets/screenshots/contact.png)
-
-### 🔐 Django Admin Panel
-
-![Admin Dashboard](assets/screenshots/admin.png)
-
----
-
 ## ⚙️ Installation
 
 ### Clone Repository
