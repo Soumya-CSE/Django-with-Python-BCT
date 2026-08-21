@@ -72,6 +72,10 @@ Chandimata-Hardware-Shop/
 <img width="1914" height="910" alt="Screenshot 2026-08-21 002253" src="https://github.com/user-attachments/assets/05b31db9-9d0d-43bd-bd02-3955602b96b9" />
 <img width="1916" height="917" alt="Screenshot 2026-08-21 002434" src="https://github.com/user-attachments/assets/74d395c9-8b09-4bbf-a4ad-289887022b1c" />
 
+### ℹ️About Section
+<img width="1903" height="906" alt="Screenshot 2026-08-21 002458" src="https://github.com/user-attachments/assets/abd31b0c-ea1a-4090-b45a-b3476b265923" />
+
+
 
 
 
