@@ -63,7 +63,7 @@ Chandimata-Hardware-Shop/
 ```
 ## 📸 Application Preview
 
-###🏠 Home Page
+### 🏠 Home Page
 <img width="1919" height="911" alt="Screenshot 2026-08-21 002140" src="https://github.com/user-attachments/assets/c5544f15-70fd-45bc-a5ad-3286d9e8d08e" />
 
 
