@@ -49,7 +49,7 @@ This project was developed for my father's hardware business to establish an onl
 ## 📂 Project Structure
 
 ```text
-Hazra-Hardware-Shop/
+Chandimata-Hardware-Shop/
 │
 ├── manage.py
 ├── db.sqlite3
@@ -61,6 +61,11 @@ Hazra-Hardware-Shop/
 ├── README.md
 └── requirements.txt
 ```
+## 📸 Application Preview
+
+###🏠 Home Page
+<img width="1919" height="911" alt="Screenshot 2026-08-21 002140" src="https://github.com/user-attachments/assets/c5544f15-70fd-45bc-a5ad-3286d9e8d08e" />
+
 
 ---
 
