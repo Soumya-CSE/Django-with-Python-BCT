@@ -66,6 +66,14 @@ Chandimata-Hardware-Shop/
 ### 🏠 Home Page
 <img width="1919" height="911" alt="Screenshot 2026-08-21 002140" src="https://github.com/user-attachments/assets/c5544f15-70fd-45bc-a5ad-3286d9e8d08e" />
 
+### 🔍Search Products
+<img width="1919" height="908" alt="Screenshot 2026-08-21 002229" src="https://github.com/user-attachments/assets/e5a5efbb-a14e-4144-988e-48f5b2046ea3" />
+<img width="1902" height="908" alt="Screenshot 2026-08-21 002338" src="https://github.com/user-attachments/assets/e8a66832-376b-4965-943e-eba5250b585b" />
+<img width="1914" height="910" alt="Screenshot 2026-08-21 002253" src="https://github.com/user-attachments/assets/05b31db9-9d0d-43bd-bd02-3955602b96b9" />
+<img width="1916" height="917" alt="Screenshot 2026-08-21 002434" src="https://github.com/user-attachments/assets/74d395c9-8b09-4bbf-a4ad-289887022b1c" />
+
+
+
 
 ---
 
