@@ -75,9 +75,8 @@ Chandimata-Hardware-Shop/
 ### ℹ️About Section
 <img width="1903" height="906" alt="Screenshot 2026-08-21 002458" src="https://github.com/user-attachments/assets/abd31b0c-ea1a-4090-b45a-b3476b265923" />
 
-
-
-
+### 📞Contact Us
+<img width="1919" height="908" alt="Screenshot 2026-08-21 002529" src="https://github.com/user-attachments/assets/0239e99b-42b8-4de2-b07b-7346947fc735" />
 
 ---
 
