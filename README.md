@@ -196,7 +196,7 @@ Through this project, I gained practical experience in:
 
 ## 👨‍💻 Author
 
-**Soumya Hazra**
+**Soumya Kanti Hazra**
 
 - GitHub: https://github.com/Soumya-CSE
 ---
@@ -218,7 +218,3 @@ Contributions, suggestions, and improvements are welcome.
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
